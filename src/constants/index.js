@@ -27,52 +27,38 @@ export const navLinks = [
 ];
 
 export const myProjects = [
+  // existing cards …
   {
-    title: "Chat App - Real-Time Collaboration",
-    desc: " It enables users to create accounts, send and receive messages instantly, and join chat rooms or groups. The app uses MongoDB for database management, ensuring efficient storage and retrieval of user data and chat history. Express.js and Node.js provide the backend server functionality, managing user authentication, socket connections for real-time updates, and RESTful APIs. React powers the user interface, offering a dynamic and responsive experience with features like notifications, user status indicators, and chatroom switching.",
+    title: "Drip & Grind",
+    desc: "Drip and Grind is a sophisticated coffee shop and co-working space tailored for freelancers, entrepreneurs, and coffee aficionados",
     subdesc:
-      "Built with the MERN stack (MongoDB, Express.js, React.js, Node.js) along with JWT authentication and Socket.io for real-time communication can offer a robust and dynamic platform",
-    href: "https://chat-app-h995.onrender.com/",
-    git: "https://github.com/El-swaggerito/chat-app",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/chat.png",
+      "Built with Next.js, React, and TailwindCSS; emphasis on performance, UX polish, and clean state management.",
+    href: "https://www.pixelspherecreatives.com/drip-grind",
+    git: "https://github.com/El-swaggerito/Pixelsphere-Creative",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/drip.png",
     logoStyle: {
-      backgroundColor: "#13202F",
-      border: "0.2px solid #17293E",
-      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+      backgroundColor: "#0E1F38",
+      border: "0.2px solid #0E2D58",
+      boxShadow: "0px 0px 60px 0px #2F67B64D",
     },
-    spotlight: "/assets/spotlight2.png",
+    spotlight: "/assets/spotlight4.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
     ],
   },
+
   {
     title: "IPhone 15 Site clone",
-    desc: "It allows visitors to explore the device from various angles, zoom in to view intricate details, and interact with the model using intuitive controls. GSAP enhances the experience with high-performance animations, creating smooth transitions, scroll-triggered effects, and dynamic scene changes. React provides a responsive and modular frontend, enabling seamless integration of interactive elements, such as feature highlights, color customization, and real-time updates, delivering an engaging and visually appealing experience.",
+    desc: "It allows visitors to explore the device from various angles, zoom in to view intricate details, and interact with the model using intuitive controls.",
     subdesc:
       "Built using Three.js for displaying 3D model, GSAP for high-performance animations on the web and React",
     href: "https://iphone15pro-clone-coral.vercel.app/",
     git: "https://github.com/El-swaggerito/iphone15-clone",
-    texture: "/textures/project/project3.mp4",
+    texture: "/textures/project/project2.mp4",
     logo: "/assets/apple.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
@@ -83,36 +69,88 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight3.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
+    ],
+  },
+
+  {
+    title: "Hope Foundation",
+    desc: "Hope Foundation is a non-profit organization dedicated to providing education and healthcare services to underserved communities.",
+    subdesc:
+      "Built with Next.js, React, and TailwindCSS; emphasis on performance, UX polish, and clean state management.",
+    href: "https://www.pixelspherecreatives.com/portfolio/hope-foundation",
+    git: "https://github.com/El-swaggerito/Pixelsphere-Creative",
+   texture: "/textures/project/project3.mp4",
+    logo: "/assets/hope.png",
+    logoStyle: {
+      backgroundColor: "#1C1A43",
+      border: "0.2px solid #252262",
+      boxShadow: "0px 0px 60px 0px #635BFF4D",
+    },
+    spotlight: "/assets/spotlight5.png",
+    tags: [
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
     ],
   },
   {
+    title: "Edtech Platform",
+    desc: "EduTech Solutions needed a comprehensive learning management system that would serve students, educators, and administrators across multiple educational institutions.",
+    subdesc:
+      "Next.js + React + TailwindCSS; emphasis on performance, UX polish, and clean state management.",
+    href: "https://www.pixelspherecreatives.com/edtech-platform",
+    git: "https://github.com/El-swaggerito/Pixelsphere-Creative",
+   texture: "/textures/project/project4.mp4",
+    logo: "/assets/edtech.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
+    ],
+  },
+  {
+    title: "Chat App - Real-Time Collaboration",
+    desc: "It enables users to create accounts, send and receive messages instantly, and join chat rooms or groups.",
+    subdesc:
+      "Built with the MERN stack (MongoDB, Express.js, React.js, Node.js) along with JWT authentication and Socket.io for real-time communication can offer a robust and dynamic platform",
+    href: "https://chat-app-h995.onrender.com/",
+    git: "https://github.com/El-swaggerito/chat-app",
+   texture: "/textures/project/project1.mp4",
+    logo: "/assets/chat.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
+    ],
+  },
+
+  {
     title: "Instagram Clone App",
-    desc: "ReactJS powers the frontend, delivering a dynamic and responsive user interface where users can browse feeds, upload photos, and interact with posts. Chakra UI provides a sleek, accessible design system for consistent styling, enabling a clean and visually appealing layout across devices. Firebase handles the backend functionalities, including real-time data synchronization, user authentication, and secure storage for media files and user data. This combination ensures a smooth and scalable user experience, with features like live notifications, user profiles, and search functionality.",
+    desc: "ReactJS powers the frontend, delivering a dynamic and responsive user interface where users can browse feeds, upload photos, and interact with posts.",
     subdesc:
       "Built using ReactJS for the front end, Chakra UI for styling, and Firebase for the backend",
     href: "https://cloned-ig.vercel.app/",
     git: "https://github.com/El-swaggerito/Instagram-clone",
-    texture: "/textures/project/project4.mp4",
+    texture: "/textures/project/project2.mp4",
     logo: "/assets/instagram.png",
     logoStyle: {
       backgroundColor: "#0E1F38",
@@ -121,36 +159,20 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight4.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
     ],
   },
   {
     title: "Snapcode - Snapchat Clone App ",
-    desc: "The app leverages Next.js for server-side rendering and dynamic routing, providing fast page loads and a smooth navigation experience. TypeScript ensures robust type-checking and code quality across the project, resulting in a more reliable and maintainable codebase. MongoDB serves as the database, storing user data, media, and chat history efficiently. Tailwind CSS powers the styling, enabling a highly customizable, responsive, and visually appealing interface. Snapcode supports features like photo and video sharing, real-time messaging, disappearing snaps, and story updates, mimicking the core functionalities of Snapchat with a modern twist.",
+    desc: "The app leverages Next.js for server-side rendering and dynamic routing, providing fast page loads and a smooth navigation experience.",
     subdesc:
       "Snapcode is a Snapchat clone built with a modern tech stack that includes Next.js, TypeScript, MongoDB, and Tailwind CSS, delivering a seamless, real-time social media experience.",
     href: "https://snapcode-muhammad-zayyad-mukhtars-projects.vercel.app/",
     git: "https://github.com/El-swaggerito/Snapcode",
-    texture: "/textures/project/project5.mp4",
+   texture: "/textures/project/project3.mp4",
     logo: "/assets/snapchat.png",
     logoStyle: {
       backgroundColor: "#1C1A43",
@@ -159,26 +181,58 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight5.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
+    ],
+  },
+
+  // NEW: from your CV
+  {
+    title: "Campus Security System",
+    desc: "End-to-end campus safety platform with React/Next.js dashboard and ML-driven analytics that identify hotspots and guide patrol planning.",
+    subdesc:
+      "Next.js + React + TailwindCSS on the web; Python/ML for analytics. Role: full-stack implementation, dashboards, data viz, and reporting.",
+    href: "https://learning-platform-alhikmah.vercel.app/",
+    git: "https://github.com/El-swaggerito/Ai-powered-personalized-learning-platform",
+   texture: "/textures/project/project4.mp4",
+    logo: "/assets/chat.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
+    ],
+  },
+  {
+    title: "AI-Powered Personalized Learning Platform",
+    desc: "Next.js 14 application that generates tailored study plans and recommendations using AI. Built server actions for secure data handling, added robust error/fallback logic, and designed a polished UI with micro-interactions for high completion rates.",
+    subdesc:
+      "Next.js 14 + React + TailwindCSS with AI inference integration; focus on resilient UX (loading states, validation, retries).",
+    href: "",
+    git: "",
+   texture: "/textures/project/project1.mp4",
+    logo: "/assets/apple.png",
+    logoStyle: {
+      backgroundColor: "#60f5a1",
+      background:
+        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+      border: "0.2px solid rgba(208, 213, 221, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
     ],
   },
 ];
@@ -221,20 +275,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Kwara State University",
-    pos: "Student",
-    duration: "September 2020 - August 2024",
-    title: "Bachelor's degree in computer science (Second Class Upper)",
-    icon: "/assets/framer.svg",
-    animation: "victory",
-  },
-  {
-    id: 2,
     name: "Ecalpemos Technologies",
     pos: "Undergraduate Intern",
     duration: "July 2023 - December 2023",
     title:
       "Collaborated with team members to design and implement software solutions.",
     animation: "clapping",
+  },
+  {
+    id: 2,
+    name: "Don Clem Technology",
+    pos: "Fullstack Developer Intern",
+    duration: "January 2025 - April 2025",
+    title:
+      "Shipped key PalConnects features in React Native (plans, transactions, help center), added receipt sharing via Share API, and optimized responsive UI/state for performance.",
+    animation: "salute",
+  },
+  {
+    id: 3,
+    name: "PixelSphere Creatives",
+    pos: "Frontend Developer",
+    duration: "2025 - Present",
+    title:
+      "Built 10+ responsive websites and landing pages; implemented component-driven UIs (React/Next.js, Tailwind), CMS integrations, and performance/accessibility improvements.",
+    animation: "victory",
   },
 ];
